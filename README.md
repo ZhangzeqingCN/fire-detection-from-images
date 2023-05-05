@@ -1,6 +1,8 @@
 # fire-detection-from-images
 The purpose of this repo is to demonstrate a fire detection neural net model. In use this model will place a bounding box around any fire in an image.
 
+<h4> url = https://github.com/robmarkcole/fire-detection-from-images.git </h4>
+
 <p align="center">
 <img src="images/fire-annotated.jpg" width="450">
 </p>
