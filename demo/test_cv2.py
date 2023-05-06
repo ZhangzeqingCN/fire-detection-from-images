@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # 加载视频
-cap: cv2.VideoCapture = cv2.VideoCapture('path/to/video.mp4')
+cap: cv2.VideoCapture = cv2.VideoCapture('test2.mp4')
 
 # 定义矩形框的坐标和颜色
 x1: int = 100

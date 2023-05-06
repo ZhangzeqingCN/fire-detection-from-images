@@ -39,6 +39,7 @@ while cap.isOpened():
     
     # Get bounding boxes and labels for detected objects
     bboxes = results.xyxy[0].cpu().numpy()
+    print(results)
     labels = results.names[0]
     
     print(labels)

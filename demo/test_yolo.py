@@ -26,5 +26,10 @@ def yolo(im: Image, size=640):
     return Image.fromarray(results.ims[0])
 
 
-image = yolo(image)
-image.show()
+# image = yolo(image)
+# image.show()
+
+
+results0 = yolov5_model(image)
+results0.render()
+Image.fromarray(results0.ims[0]).show()

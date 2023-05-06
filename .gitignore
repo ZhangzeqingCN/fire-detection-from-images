@@ -4,3 +4,4 @@ remo_home*
 venv*
 .vscode/settings.json
 *.mp4
+.idea
